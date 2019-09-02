@@ -1,8 +1,7 @@
 import React from 'react';
 
-import Layout from 'components/layout';
-import SEO from 'components/seo';
-import Welcome from 'containers/welcome';
+import { Layout, SEO } from 'components';
+import { Welcome } from 'containers';
 
 const IndexPage = () => (
   <Layout>

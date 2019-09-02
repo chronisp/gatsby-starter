@@ -4,7 +4,7 @@ import { Scrollbars } from 'react-custom-scrollbars';
 import Fade from '@material-ui/core/Fade';
 import classNames from 'classnames';
 
-import Header from 'components/header';
+import { Header } from 'components';
 
 import styles from './style';
 

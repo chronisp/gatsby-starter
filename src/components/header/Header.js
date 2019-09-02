@@ -2,9 +2,7 @@ import { Link } from 'gatsby';
 import React from 'react';
 import { withStyles } from '@material-ui/styles';
 
-import Avatar from 'components/avatar';
-import Navigation from 'components/navigation';
-import Animated from 'components/animated';
+import { Avatar, Navigation, Animated } from 'components';
 
 import styles from './style';
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { withStyles } from '@material-ui/styles';
 
-import BlogPost from 'components/blog-post';
+import { BlogPost } from 'components';
 
 import fetchBlogPosts from './fetchBlogPosts';
 import styles from './style';
