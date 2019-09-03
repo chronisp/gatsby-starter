@@ -1,4 +1,11 @@
-const styles = ({ app, typography }) => ({
+const styles = ({ app, breakpoints, typography }) => ({
+  '@global': {
+    html: {
+      [breakpoints.up('xl')]: {
+        fontSize: '0.833333vw !important',
+      },
+    },
+  },
   container: {
     minHeight: '100vh',
   },
