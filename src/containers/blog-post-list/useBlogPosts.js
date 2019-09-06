@@ -1,6 +1,6 @@
 import { useStaticQuery, graphql } from 'gatsby';
 
-export const fetchBlogPosts = () => {
+const useBlogPosts = () => {
   const data = useStaticQuery(
     graphql`
       query {
@@ -31,4 +31,4 @@ export const fetchBlogPosts = () => {
   return data;
 };
 
-export default fetchBlogPosts;
+export default useBlogPosts;

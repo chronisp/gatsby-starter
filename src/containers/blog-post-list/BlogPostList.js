@@ -3,7 +3,7 @@ import { withStyles } from '@material-ui/styles';
 
 import { BlogPost } from 'components';
 
-import fetchBlogPosts from './fetchBlogPosts';
+import useBlogPosts from './useBlogPosts';
 import styles from './style';
 
 type Props = {
@@ -11,7 +11,7 @@ type Props = {
 };
 
 const BlogPostList = ({ classes }: Props) => {
-  const { allContentfulBlogPost } = fetchBlogPosts();
+  const { allContentfulBlogPost } = useBlogPosts();
 
   return (
     <div className={classes.container}>

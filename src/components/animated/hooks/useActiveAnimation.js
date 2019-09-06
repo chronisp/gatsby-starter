@@ -9,7 +9,7 @@ const useActiveAnimation = timeout => {
     }, timeout);
 
     return () => clearTimeout(timer);
-  }, [activeAnimation]);
+  }, [activeAnimation, timeout]);
 
   return [activeAnimation, setActiveAnimation];
 };
