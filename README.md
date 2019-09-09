@@ -1,7 +1,5 @@
 <p align="center">
-  <a>
-    <img alt="Gatsby" src="https://raw.githubusercontent.com/chronisp/gatsby-starter/master/src/images/website-icon.png" width="60" />
-  </a>
+  <img alt="Gatsby" src="https://raw.githubusercontent.com/chronisp/gatsby-starter/master/src/images/website-icon.png" width="60" />
 </p>
 <h1 align="center">
   Gatsby Starter
@@ -32,6 +30,7 @@ These are the key features of the project:
 *  [React Helmet](https://github.com/nfl/react-helmet)
 *  [Flow](https://flow.org/)
 *  [Prettier](https://prettier.io/)
+*  [Gatsby-image](https://www.gatsbyjs.org/packages/gatsby-image/)
 *  Config files for each environment
 
 ## Get Started
