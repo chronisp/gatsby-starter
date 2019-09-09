@@ -1,3 +1,6 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a37c0ad8-deae-4bd3-8c8e-cbac8d2f05c3/deploy-status)](https://app.netlify.com/sites/gatsby-starter-dot/deploys)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c23975ea23e3459283f6c76ad338fcb1)](https://www.codacy.com/app/chronisp/gatsby-starter?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=chronisp/gatsby-starter&amp;utm_campaign=Badge_Grade)
+
 <p align="center">
   <a href="https://gatsbyjs.org">
     <img alt="Gatsby" src="https://raw.githubusercontent.com/chronisp/gatsby-starter/master/src/images/website-icon.png" width="60" />
@@ -9,10 +12,6 @@
 
 <p align="center">
   Gatsby Starter for creating portfolio & blog.
-</p>
-<p align="center">
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a37c0ad8-deae-4bd3-8c8e-cbac8d2f05c3/deploy-status)](https://app.netlify.com/sites/gatsby-starter-dot/deploys)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c23975ea23e3459283f6c76ad338fcb1)](https://www.codacy.com/app/chronisp/gatsby-starter?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=chronisp/gatsby-starter&amp;utm_campaign=Badge_Grade)
 </p>
 
 ## Key Features
