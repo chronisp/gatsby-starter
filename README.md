@@ -16,7 +16,7 @@
     <img alt="Netlify" src="https://img.shields.io/netlify/a37c0ad8-deae-4bd3-8c8e-cbac8d2f05c3">
   </a>
   <a href="https://www.codacy.com/app/chronisp/gatsby-starter?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=chronisp/gatsby-starter&amp;utm_campaign=Badge_Grade">
-    <img alt="Codacy branch grade" src="https://img.shields.io/codacy/grade/c23975ea23e3459283f6c76ad338fcb1/master?style=social">
+    <img alt="Codacy grade" src="https://img.shields.io/codacy/grade/c23975ea23e3459283f6c76ad338fcb1">
   </a>
   <a href="https://github.com/chronisp/gatsby-starter/blob/master/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/chronisp/gatsby-starter"></a>
 </p>
