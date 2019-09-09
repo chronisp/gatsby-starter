@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://gatsbyjs.org">
+  <a>
     <img alt="Gatsby" src="https://raw.githubusercontent.com/chronisp/gatsby-starter/master/src/images/website-icon.png" width="60" />
   </a>
 </p>
