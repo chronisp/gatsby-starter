@@ -1,8 +1,13 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a37c0ad8-deae-4bd3-8c8e-cbac8d2f05c3/deploy-status)](https://app.netlify.com/sites/gatsby-starter-dot/deploys)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/c23975ea23e3459283f6c76ad338fcb1)](https://www.codacy.com/app/chronisp/gatsby-starter?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=chronisp/gatsby-starter&amp;utm_campaign=Badge_Grade)
 
-# Gatsby Starter
-Gatsby Starter for creating portfolio & blog.
+<h1 align="center">
+  Gatsby Starter
+</h1>
+
+<p align="center">
+  Gatsby Starter for creating portfolio & blog.
+</p>
 
 ## Key Features
 These are the key features of the project:
@@ -60,6 +65,8 @@ Format all JS files
 ```sh
 yarn format
 ```
+
+For any building or deployment issues, ensure you have setup your environment according to [Gatsby guide](https://www.gatsbyjs.org/docs/preparing-your-environment/) for [Windows](https://www.gatsbyjs.org/docs/gatsby-on-windows/) or [Linux](https://www.gatsbyjs.org/docs/gatsby-on-linux/).
 
 ## Contentful Blog
 In order to use Contentful blog, you should define the required settings in both ```.env.development``` and ```.env.production``` files.
