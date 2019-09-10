@@ -24,7 +24,6 @@
     "gatsby-transformer-sharp": "^2.2.13",
     "lodash": "^4.17.15",
     "react": "^16.9.0",
-    "react-animatejs": "^1.0.1",
     "react-custom-scrollbars": "^4.2.1",
     "react-dom": "^16.9.0",
     "react-helmet": "^5.2.1",
