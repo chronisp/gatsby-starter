@@ -10674,6 +10674,11 @@ rc@^1.0.1, rc@^1.1.6, rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
+react-animatejs@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/react-animatejs/-/react-animatejs-1.0.1.tgz#d56941cdb9a8eed4c609ab7f46e23b78e39fb5e1"
+  integrity sha512-mVyS4lVqBjqEkbHpws0Oup69mPoqe9iRLL3Ufxy94PzzPOsiQSm10PFCekUrvhcA7f0+FZrlIP3h0EicTBLPfA==
+
 react-custom-scrollbars@^4.2.1:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/react-custom-scrollbars/-/react-custom-scrollbars-4.2.1.tgz#830fd9502927e97e8a78c2086813899b2a8b66db"
