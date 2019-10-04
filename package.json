@@ -2,7 +2,7 @@
   "name": "gatsby-starter",
   "private": true,
   "description": "Gatsby Starter",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": "Polychronis Papadakis <polychronis.papadakis@gmail.com>",
   "dependencies": {
     "@material-ui/core": "^4.5.0",
@@ -36,7 +36,10 @@
   "devDependencies": {
     "@hot-loader/react-dom": "^16.9.0",
     "prettier": "^1.18.2",
-    "redux-devtools-extension": "^2.13.2"
+    "redux-devtools-extension": "^2.13.2",
+    "chalk": "^2.4.2",
+    "inquirer": "^7.0.0",
+    "yargs-parser": "^14.0.0"
   },
   "keywords": [
     "gatsby"
@@ -47,7 +50,8 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "setup": "node ./bin/setup.js"
   },
   "repository": {
     "type": "git",
