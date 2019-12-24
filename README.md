@@ -53,6 +53,15 @@ Install all dependencies
 yarn install
 ```
 
+### Contentful blog
+Setup Contentful settings
+```sh
+yarn setup
+```
+Follow the instructions in order to setup CONTENTFUL_SPACE_ID and CONTENTFUL_ACCESS_TOKEN. Required settings will be defined in both ```.env.development``` and ```.env.production``` files.
+
+For more info on how to setup Contentful follow this [link](https://www.contentful.com/r/knowledgebase/gatsbyjs-and-contentful-in-five-minutes/).
+
 ### Development mode
 Start development server
 ```sh
@@ -78,13 +87,3 @@ yarn format
 ```
 
 For any building or deployment issues, ensure you have setup your environment according to [Gatsby guide](https://www.gatsbyjs.org/docs/preparing-your-environment/) for [Windows](https://www.gatsbyjs.org/docs/gatsby-on-windows/) or [Linux](https://www.gatsbyjs.org/docs/gatsby-on-linux/).
-
-## Contentful Blog
-In order to use Contentful blog, you should define the required settings in both ```.env.development``` and ```.env.production``` files.
-
-```sh
-CONTENTFUL_SPACE_ID=XXXXXXXXXX
-CONTENTFUL_ACCESS_TOKEN=XXXXXXXXXXXXXXXXXXXXXXXX
-CONTENTFUL_ENV=XXXX
-```
-For more info on how to setup Contentful follow this [link](https://www.contentful.com/r/knowledgebase/gatsbyjs-and-contentful-in-five-minutes/).
