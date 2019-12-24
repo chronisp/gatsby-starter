@@ -24,6 +24,8 @@ const AnimatedLetter = ({
 
   return (
     <span
+      role={'textbox'}
+      tabIndex={0}
       onMouseEnter={() => animateLetter && setActiveAnimation(true)}
       className={classNames(activeAnimation && animation, classes.letter)}>
       {letter}
