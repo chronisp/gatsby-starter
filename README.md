@@ -58,7 +58,7 @@ Setup Contentful settings
 ```sh
 yarn setup
 ```
-Follow the instructions in order to setup CONTENTFUL_SPACE_ID and CONTENTFUL_ACCESS_TOKEN. Required settings will be defined in both ```.env.development``` and ```.env.production``` files.
+Follow the instructions in order to setup ```CONTENTFUL_SPACE_ID``` and ```CONTENTFUL_ACCESS_TOKEN```. Required settings will be defined in both ```.env.development``` and ```.env.production``` files.
 
 For more info on how to setup Contentful follow this [link](https://www.contentful.com/r/knowledgebase/gatsbyjs-and-contentful-in-five-minutes/).
 
