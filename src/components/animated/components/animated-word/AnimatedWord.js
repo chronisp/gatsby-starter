@@ -24,8 +24,7 @@ const AnimatedWord = ({
 
   return (
     <span
-      role={'textbox'}
-      tabIndex={0}
+      role={'presentation'}
       onMouseEnter={() => animateWord && setActiveAnimation(true)}
       className={classNames(activeAnimation && animation, classes.word)}>
       {animateWord

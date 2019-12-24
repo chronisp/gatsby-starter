@@ -38,8 +38,7 @@ const Animated = ({
       ))
   ) : (
     <span
-      role={'textbox'}
-      tabIndex={0}
+      role={'presentation'}
       onMouseEnter={() => setActiveAnimation(true)}
       className={classNames(
         activeAnimation && classes[animation],
