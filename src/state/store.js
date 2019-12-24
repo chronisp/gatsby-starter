@@ -3,10 +3,12 @@ import { composeWithDevTools } from 'redux-devtools-extension/developmentOnly';
 
 import reducer from './reducer';
 
+const composeEnhancers = composeWithDevTools({ name: 'Gatsby Starter' });
+
 export default preloadedState => {
   return createStore(
     reducer,
     preloadedState,
-    composeWithDevTools(applyMiddleware())
+    composeEnhancers(applyMiddleware())
   );
 };
