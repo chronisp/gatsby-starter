@@ -16,9 +16,9 @@
     "gatsby-plugin-module-resolver": "^1.0.3",
     "gatsby-plugin-offline": "^3.0.30",
     "gatsby-plugin-react-helmet": "^3.1.18",
-    "gatsby-plugin-react-redux": "^1.0.9",
-    "gatsby-plugin-sharp": "^2.2.20",
-    "gatsby-source-contentful": "^2.1.33",
+    "gatsby-plugin-react-redux": "^1.1.0-0",
+    "gatsby-plugin-sharp": "^2.3.10",
+    "gatsby-source-contentful": "^2.1.73",
     "gatsby-source-filesystem": "^2.1.43",
     "gatsby-transformer-remark": "^2.6.45",
     "gatsby-transformer-sharp": "^2.3.9",
@@ -36,7 +36,7 @@
   "devDependencies": {
     "@hot-loader/react-dom": "^16.11.0",
     "chalk": "^2.4.2",
-    "inquirer": "^7.0.0",
+    "inquirer": "^7.0.1",
     "prettier": "^1.19.1",
     "redux-devtools-extension": "^2.13.2",
     "yargs-parser": "^14.0.0"
