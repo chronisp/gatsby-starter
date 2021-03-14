@@ -7,21 +7,13 @@ import { AnimatedWord } from './components';
 import styles from './style';
 import { useActiveAnimation } from './hooks';
 
-type Props = {
-  children: HTMLElement,
-  classes: Object,
-  animateWord: Boolean,
-  animation: String,
-  timeout: Number,
-};
-
 const Animated = ({
   children,
   classes,
   animateWord,
   animation,
   timeout,
-}: Props) => {
+}) => {
   const [activeAnimation, setActiveAnimation] = useActiveAnimation(timeout);
 
   return isString(children) ? (

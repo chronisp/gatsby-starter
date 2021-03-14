@@ -5,14 +5,7 @@ import { FaBars } from 'react-icons/fa';
 
 import styles from './style';
 
-type Props = {
-  classes: Object,
-  options: [],
-  open: Boolean,
-  onClick: () => void,
-};
-
-const MobileNavigation = ({ classes, options, onClick, open }: Props) => (
+const MobileNavigation = ({ classes, options, onClick, open }) => (
   <>
     <FaBars className={classes.menuIcon} onClick={onClick} />
     {open && (

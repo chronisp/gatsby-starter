@@ -6,11 +6,7 @@ import { Avatar, Navigation, Animated } from 'components';
 
 import styles from './style';
 
-type Props = {
-  classes: Object,
-};
-
-const Header = ({ classes }: Props) => (
+const Header = ({ classes }) => (
   <header className={classes.container}>
     <Link to='/' className={classes.logo}>
       <Animated>

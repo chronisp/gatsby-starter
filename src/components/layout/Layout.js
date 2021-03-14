@@ -10,13 +10,7 @@ import styles from './style';
 
 require('typeface-roboto');
 
-type Props = {
-  classes: Object,
-  children: HTMLElement,
-  noBackground: Boolean,
-};
-
-const Layout = ({ classes, children, noBackground }: Props) => (
+const Layout = ({ classes, children, noBackground }) => (
   <Scrollbars
     autoHide
     autoHideTimeout={1000}

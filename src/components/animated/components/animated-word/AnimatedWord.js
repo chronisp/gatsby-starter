@@ -7,19 +7,13 @@ import { useActiveAnimation } from 'components/animated/hooks';
 import { AnimatedLetter } from './components';
 import styles from './style';
 
-type Props = {
-  classes: Object,
-  word: String,
-  timeout: Number,
-};
-
 const AnimatedWord = ({
   classes,
   word,
   animateWord,
   animation,
   timeout,
-}: Props) => {
+}) => {
   const [activeAnimation, setActiveAnimation] = useActiveAnimation(timeout);
 
   return (

@@ -3,11 +3,7 @@ import { withStyles } from '@material-ui/styles';
 
 import styles from './style';
 
-type Props = {
-  classes: Object,
-};
-
-const Footer = ({ classes }: Props) => (
+const Footer = ({ classes }) => (
   <footer className={classes.container}>
     © {new Date().getFullYear()}, Built with
     {` `}

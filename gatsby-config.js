@@ -9,7 +9,6 @@ module.exports = {
     author: `Polychronis Papadakis`,
   },
   plugins: [
-    `gatsby-plugin-flow`,
     `gatsby-transformer-sharp`,
     `gatsby-transformer-remark`,
     `gatsby-plugin-sharp`,

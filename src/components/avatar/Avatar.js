@@ -4,11 +4,7 @@ import { withStyles } from '@material-ui/styles';
 
 import styles from './style';
 
-type Props = {
-  classes: Object,
-};
-
-const Avatar = ({ classes }: Props) => (
+const Avatar = ({ classes }) => (
   <div className={classes.container}>
     <img src={avatarIcon} className={classes.avatar} alt='avatar' />
   </div>

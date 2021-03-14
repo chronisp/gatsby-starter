@@ -5,10 +5,12 @@ import reducer from './reducer';
 
 const composeEnhancers = composeWithDevTools({ name: 'Gatsby Starter' });
 
-export default preloadedState => {
+const store = preloadedState => {
   return createStore(
     reducer,
     preloadedState,
     composeEnhancers(applyMiddleware())
   );
 };
+
+export default store;

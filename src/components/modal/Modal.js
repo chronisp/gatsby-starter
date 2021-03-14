@@ -6,11 +6,7 @@ import { Scrollbars } from 'react-custom-scrollbars';
 
 import styles from './style';
 
-type Props = {
-  classes: Object,
-};
-
-const Modal = ({ classes, children, fullScreen, ...rest }: Props) => (
+const Modal = ({ classes, children, fullScreen, ...rest }) => (
   <MaterialModal closeAfterTransition {...rest}>
     <Fade in={rest.open} timeout={250}>
       <div

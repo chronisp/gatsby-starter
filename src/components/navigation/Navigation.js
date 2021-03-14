@@ -9,12 +9,7 @@ import MobileNavigation from './mobile';
 import options from './content';
 import styles from './style';
 
-type Props = {
-  classes: Object,
-  width: string,
-};
-
-const Navigation = ({ classes, width }: Props) => {
+const Navigation = ({ classes, width }) => {
   const [open, setOpen] = useState(false);
 
   return (

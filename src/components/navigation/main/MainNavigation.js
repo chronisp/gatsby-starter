@@ -4,12 +4,7 @@ import { withStyles } from '@material-ui/styles';
 
 import styles from './style';
 
-type Props = {
-  classes: Object,
-  options: [],
-};
-
-const MainNavigation = ({ classes, options }: Props) => (
+const MainNavigation = ({ classes, options }) => (
   <ul>
     {options.map((link, i) => (
       <li className={classes.menuContainer} key={i}>
