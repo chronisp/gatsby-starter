@@ -16,6 +16,7 @@ const LinkList = ({ classes, links }: Props) => (
           <a
             href={to}
             target={newTab ? '_blank' : '_self'}
+            rel={'noreferrer'}
             className={classes.link}>
             <Icon />
             <span className={classes.linkText}>{text}</span>
