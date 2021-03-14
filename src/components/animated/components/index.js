@@ -1,3 +1,1 @@
-import AnimatedWord from './animated-word';
-
-export { AnimatedWord };
+export { default as AnimatedWord } from './animated-word';

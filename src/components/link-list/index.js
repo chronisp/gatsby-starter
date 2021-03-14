@@ -1,3 +1,1 @@
-import LinkList from './LinkList';
-
-export default LinkList;
+export { default } from './LinkList';

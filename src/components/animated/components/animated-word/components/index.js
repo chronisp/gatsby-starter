@@ -1,3 +1,1 @@
-import AnimatedLetter from './animated-letter';
-
-export { AnimatedLetter };
+export { default as AnimatedLetter } from './animated-letter';

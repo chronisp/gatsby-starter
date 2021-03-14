@@ -1,3 +1,1 @@
-import Animated from './Animated';
-
-export default Animated;
+export { default } from './Animated';
