@@ -28,13 +28,12 @@ These are the key features of the project:
 *  [Contentful CMS](https://www.contentful.com/) (blog integration)
 *  [Netlify Deployment Support](https://www.netlify.com)
 *  [React Helmet](https://github.com/nfl/react-helmet)
-*  [Flow](https://flow.org/)
 *  [Prettier](https://prettier.io/)
 *  [Gatsby-image](https://www.gatsbyjs.org/packages/gatsby-image/)
 *  Config files for each environment
 
 ## Get Started
-Make sure that you have Node.js v.8, yarn v.1 and npm v.5 or above installed.
+Make sure that you have Node.js (>=12.13.0) and yarn v.1 or above installed.
 
 Install Gatsby CLI
 ```sh
