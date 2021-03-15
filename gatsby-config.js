@@ -14,12 +14,10 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
     {
+      resolve: `gatsby-plugin-typescript`,
+    },
+    {
       resolve: `gatsby-plugin-material-ui`,
-      options: {
-        // stylesProvider: {
-        //   injectFirst: true,
-        // },
-      },
     },
     {
       resolve: 'gatsby-plugin-module-resolver',
