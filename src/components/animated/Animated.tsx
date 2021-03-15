@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { ReactElement } from 'react';
 import { withStyles } from '@material-ui/styles';
 import classNames from 'classnames';
 import isString from 'lodash/isString';
@@ -7,13 +7,21 @@ import { AnimatedWord } from './components';
 import styles from './style';
 import { useActiveAnimation } from './hooks';
 
+interface Props {
+  children: ReactElement;
+  classes: any;
+  animateWord: boolean;
+  animation: string;
+  timeout: number;
+};
+
 const Animated = ({
   children,
   classes,
   animateWord,
   animation,
   timeout,
-}) => {
+}: Props) => {
   const [activeAnimation, setActiveAnimation] = useActiveAnimation(timeout);
 
   return isString(children) ? (

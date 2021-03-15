@@ -10,7 +10,14 @@ import MobileNavigation from './mobile';
 import options from './content';
 import styles from './style';
 
-const Navigation = ({ classes, width, open, toggleMenu }) => (
+interface Props {
+  classes: any;
+  width: string;
+  open: boolean;
+  toggleMenu: () => void;
+};
+
+const Navigation = ({ classes, width, open, toggleMenu }: Props) => (
   <div className={classes.container}>
     {isMobileView(width) ? (
       <MobileNavigation

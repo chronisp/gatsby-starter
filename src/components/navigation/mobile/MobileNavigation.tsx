@@ -5,7 +5,14 @@ import { FaBars } from 'react-icons/fa';
 
 import styles from './style';
 
-const MobileNavigation = ({ classes, options, onClick, open }) => (
+interface Props {
+  classes: any;
+  options: Array<any>;
+  open: boolean;
+  onClick: () => void;
+};
+
+const MobileNavigation = ({ classes, options, onClick, open }: Props) => (
   <>
     <FaBars className={classes.menuIcon} onClick={onClick} />
     {open && (
@@ -15,8 +22,7 @@ const MobileNavigation = ({ classes, options, onClick, open }) => (
             <Link
               to={link.to}
               className={classes.navLink}
-              activeClassName={classes.navLinkActive}
-              exact={'true'}>
+              activeClassName={classes.navLinkActive}>
               <span>{link.text}</span>
             </Link>
           </div>

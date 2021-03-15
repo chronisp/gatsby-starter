@@ -2,7 +2,14 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import useSiteMetadata from './useSiteMetadata';
 
-function SEO({ description, lang, meta, title }) {
+interface Props {
+  description?: string;
+  lang?: string;
+  meta: Array<any>;
+  title: string;
+};
+
+function SEO({ description, lang, meta, title }: Props) {
   const siteMetadata = useSiteMetadata();
 
   const metaDescription = description || siteMetadata.description;

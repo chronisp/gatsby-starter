@@ -4,15 +4,19 @@ import { withStyles } from '@material-ui/styles';
 
 import styles from './style';
 
-const MainNavigation = ({ classes, options }) => (
+interface Props {
+  classes: any;
+  options: Array<any>;
+};
+
+const MainNavigation = ({ classes, options }: Props) => (
   <ul>
     {options.map((link, i) => (
       <li className={classes.menuContainer} key={i}>
         <Link
           to={link.to}
           className={classes.navLink}
-          activeClassName={classes.navLinkActive}
-          exact={'true'}>
+          activeClassName={classes.navLinkActive}>
           <span>{link.text}</span>
         </Link>
       </li>

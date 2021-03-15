@@ -5,8 +5,11 @@ import { withStyles } from '@material-ui/styles';
 import { Avatar, Navigation, Animated } from 'components';
 
 import styles from './style';
+interface Props {
+  classes: any;
+};
 
-const Header = ({ classes }) => (
+const Header = ({ classes }: Props) => (
   <header className={classes.container}>
     <Link to='/' className={classes.logo}>
       <Animated>

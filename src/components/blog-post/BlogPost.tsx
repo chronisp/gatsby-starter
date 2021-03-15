@@ -5,7 +5,12 @@ import Img from 'gatsby-image';
 
 import styles from './style';
 
-const BlogPost = ({ classes, data }) => (
+interface Props {
+  classes: any;
+  data: any;
+};
+
+const BlogPost = ({ classes, data }: Props) => (
   <div className={classes.container}>
     {data.heroImage ? <Img fluid={data.heroImage.fluid} /> : null}
     <Typography variant='h2' color='textPrimary'>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { ReactElement } from 'react';
 import { withStyles } from '@material-ui/styles';
 import { Scrollbars } from 'react-custom-scrollbars';
 import Fade from '@material-ui/core/Fade';
@@ -10,7 +10,13 @@ import styles from './style';
 
 require('typeface-roboto');
 
-const Layout = ({ classes, children, noBackground }) => (
+interface Props {
+  classes: any;
+  children: ReactElement;
+  noBackground: boolean;
+};
+
+const Layout = ({ classes, children, noBackground }: Props) => (
   <Scrollbars
     autoHide
     autoHideTimeout={1000}

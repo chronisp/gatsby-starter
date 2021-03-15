@@ -1,13 +1,20 @@
-import React from 'react';
+import React, { ReactElement } from 'react';
 import { withStyles } from '@material-ui/styles';
-import MaterialModal from '@material-ui/core/Modal';
+import MUIlModal from '@material-ui/core/Modal';
 import Fade from '@material-ui/core/Fade';
 import { Scrollbars } from 'react-custom-scrollbars';
 
 import styles from './style';
 
-const Modal = ({ classes, children, fullScreen, ...rest }) => (
-  <MaterialModal closeAfterTransition {...rest}>
+interface Props {
+  classes: any;
+  children: ReactElement;
+  fullScreen: boolean;
+  open: boolean;
+};
+
+const Modal = ({ classes, children, fullScreen, ...rest }: Props) => (
+  <MUIlModal closeAfterTransition {...rest}>
     <Fade in={rest.open} timeout={250}>
       <div
         className={
@@ -24,7 +31,7 @@ const Modal = ({ classes, children, fullScreen, ...rest }) => (
         </div>
       </div>
     </Fade>
-  </MaterialModal>
+  </MUIlModal>
 );
 
 export default withStyles(styles)(Modal);

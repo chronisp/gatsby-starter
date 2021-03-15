@@ -6,7 +6,11 @@ import { BlogPost } from 'components';
 import useBlogPosts from './useBlogPosts';
 import styles from './style';
 
-const BlogPostList = ({ classes }) => {
+interface Props {
+  classes: any;
+};
+
+const BlogPostList = ({ classes }: Props) => {
   const { allContentfulBlogPost } = useBlogPosts();
 
   return (

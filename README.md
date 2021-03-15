@@ -23,6 +23,7 @@
 These are the key features of the project:
 *  [Gatsby](https://www.gatsbyjs.org/) (GraphQL for queries)
 *  [React](https://reactjs.org/) (everything in React Hooks)
+*  [TypeScript](https://www.typescriptlang.org/) (in progress...)
 *  [Redux](https://redux.js.org/) (custom HOF to connect actions & props)
 *  [Material UI](https://material-ui.com/) (palette, typography & breakpoints configuration)
 *  [Contentful CMS](https://www.contentful.com/) (blog integration)
