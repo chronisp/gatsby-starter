@@ -18,9 +18,7 @@ const useBlogPosts = () => {
                 }
               }
               heroImage {
-                fluid(maxWidth: 960) {
-                  ...GatsbyContentfulFluid_withWebp
-                }
+                gatsbyImageData(layout: FULL_WIDTH)
               }
             }
           }
@@ -32,3 +30,10 @@ const useBlogPosts = () => {
 };
 
 export default useBlogPosts;
+
+//old hero data format with gatsby-image instead of gatsby-plugin-image
+// heroImage {
+//   fluid(maxWidth: 960) {
+//     ...GatsbyContentfulFluid_withWebp
+//   }
+// }
