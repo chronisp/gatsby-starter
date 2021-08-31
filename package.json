@@ -9,7 +9,7 @@
     "@material-ui/styles": "^4.11.3",
     "classnames": "^2.2.6",
     "gatsby": "^4.0.0-alpha-9689ff.5",
-    "gatsby-image": "^2.2.37",
+    "gatsby-plugin-image": "^2.0.0-alpha-9689ff.5",
     "gatsby-plugin-manifest": "^4.0.0-alpha-9689ff.5",
     "gatsby-plugin-material-ui": "^2.1.10",
     "gatsby-plugin-module-resolver": "^1.0.3",
