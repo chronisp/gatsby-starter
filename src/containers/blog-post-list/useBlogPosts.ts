@@ -18,9 +18,7 @@ const useBlogPosts = () => {
                 }
               }
               heroImage {
-                fluid(maxWidth: 960) {
-                  ...GatsbyContentfulFluid_withWebp
-                }
+                gatsbyImageData(layout: FULL_WIDTH)
               }
             }
           }
